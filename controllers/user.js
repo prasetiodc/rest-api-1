@@ -44,7 +44,7 @@ class userController {
         res.status(200).json("data terhapus")
       })
       .catch(err => {
-        res.status(404).json(err)
+        res.status(404).json({err})
       })
   }
 
@@ -64,7 +64,7 @@ class userController {
         res.status(200).json(data)
       })
       .catch(err => {
-        res.status(404).json(err)
+        res.status(404).json({err})
       })
   }
 

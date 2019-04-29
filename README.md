@@ -23,5 +23,9 @@ ROUTE | HTTP | Header(s) | Body | Respon | Description |
 ## Routes Users
 |Routes|HTTP Method| Header(s) | Body |Response|Description| 
 ------|------|------|------|------|------------|
-`/api/users/signup`|`POST`| none | `username: String`(Required), <br/>`password: String`(Required) | Success: {object}, <br />Error: Internal server error| Sign up with new user info | 
-`/api/users/signin`|`POST`| none | `username: String`(Required), <br/>`password: String`(Required) | Success: {object}, <br />Error: Internal server error| Sign in and get an access token |  
+`/api/users/signup`|`POST`| none | `email: String`(Required), <br/>`password: String`(Required) | Success: {object}, <br />Error: Internal server error| Sign up with new user info | 
+`/api/users/signin`|`POST`| none | `email: String`(Required), <br/>`password: String`(Required) | Success: {object}, <br />Error: Internal server error| Sign in and get an access token |  
+
+
+Link Deploy 
+https://sheltered-reaches-77935.herokuapp.com/
