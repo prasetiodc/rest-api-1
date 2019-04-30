@@ -1,6 +1,6 @@
 const { User } = require('../models/')
 const { hash } = require('../helpers/bcrypt')
-const { sign, verify } = require('../helpers/jwt')
+const { sign } = require('../helpers/jwt')
 const { compare } = require('../helpers/bcrypt')
 
 class userController {

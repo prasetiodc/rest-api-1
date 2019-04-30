@@ -15,7 +15,7 @@ function authentication(req, res, next) {
       }
     })
     .catch(err => {
-      res.status(401).json({ message: 'Unauthorized' })
+      res.status(500).json({ message: 'Internal Server Error' })
     })
 
 }
